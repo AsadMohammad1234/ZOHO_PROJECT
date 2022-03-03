@@ -1,0 +1,77 @@
+body{
+    background-color: rgb(230, 231, 231); 
+}
+/*********** flex containers ************/
+
+.flexbox-container{
+    padding-top: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flexbox-item{
+    text-align: center;    
+    border-radius: 6px;
+}
+
+.flexbox-item1{   
+    height:500px;
+    width:475px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXljl1Mm9o0WEd90D6XNvyp2-QA7XdZdiJ4A&usqp=CAU);
+}
+/*********** TABLE ************/
+
+table{
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40px;
+}
+
+table,tr,td{
+     margin-left: 110px;
+    text-align: center;
+    justify-content:center;
+    padding: 0px;    
+}
+
+td{
+    text-align: left;
+}
+/*********** INPUT ATTRIBUTES ************/
+
+input[type=text], input[type=password] {   
+    width: 60%;   
+    margin: 8px 0;  
+    padding: 12px 20px;   
+    display: inline-block;   
+    border: none;
+    background-color: rgba(240, 236, 236, 1); 
+    border-radius: 3px;  
+} 
+/*********** BUTTONS ************/
+
+.button{
+    background-color:  #ace9ec;    
+    padding: 10px;   
+    margin-top: 10px;
+    margin-bottom: 0px;       
+    border: none;   
+    cursor: pointer;   
+    text-align: center;
+    width:66%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border-radius: 5px;
+}
+/*********** PARAGRAPHS ************/
+
+p{
+    font-size: x-small;
+    text-align: center;
+    padding-right: 100px;
+    padding-bottom:100px;
+}

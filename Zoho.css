@@ -1,0 +1,88 @@
+body{  
+    background-size:contain;
+    background-repeat: no-repeat; 
+    background-color: rgb(224, 241, 243); 
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+}
+/*********** flex containers ************/
+
+.flexbox-container{
+    margin:60px;
+    display:flex;
+}
+
+.flexbox-item{  
+    text-align: center;
+    border-radius: 8px; 
+}
+
+.flexbox-item1{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/c/c9/Zoho_headquarters_in_chennai.jpg);
+    background-size:cover;
+    width:700px;
+    height:468px; 
+    border-top-right-radius: 0px;
+    border-bottom-right-radius:0px ;
+}
+
+.flexbox-item2{
+    width:500px;
+    height:468px;   
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXljl1Mm9o0WEd90D6XNvyp2-QA7XdZdiJ4A&usqp=CAU); 
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+/*********** TABLE ************/
+
+table{
+    border-collapse: collapse;
+    width: 50%;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40px;
+}
+
+table, td, th {   
+    padding: 4px;
+}
+/*********** INPUT ATTRIBUTES ************/
+
+input[type=text], input[type=password] {   
+    width: 100%;   
+    margin: 8px 0;  
+    padding: 12px 20px;   
+    display: inline-block;   
+    border: none;
+    background-color: rgba(240, 236, 236, 1);   
+    border-radius: 3px;
+} 
+/*********** BUTTONS ************/
+
+.button{
+    background-color: #cae5e7;          
+    padding: 10px;   
+    margin: 10px 0px;   
+    border: none;   
+    cursor: pointer;   
+    text-align: center;
+    width:110%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border-radius: 3px;
+} 
+
+td{
+    text-align: left;
+    font-size:medium;
+}
+/*********** ANCHOR TAGS ************/
+
+a{
+    text-decoration: none;
+}
+
+.sig{
+    display: inline-block;
+}
